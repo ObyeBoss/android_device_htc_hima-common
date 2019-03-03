@@ -38,8 +38,6 @@ static struct rt55xx_config rt55xx_playback_config = {
         { 0x09, 0x02, }, // noise gate setting
         { 0x0A, 0x03, }, // noise gate setting
         { 0x0B, 0xD9, }, // noise gate -4dB
-        { 0x93, 0xAD, }, // pop noise enlarge CP freq
-        { 0x90, 0x93, }, // fix 1X mode
     },
 };
 
@@ -54,8 +52,6 @@ static struct rt55xx_config rt55xx_playback_128_config = {
         { 0x09, 0x02, }, // noise gate setting
         { 0x0A, 0x03, }, // noise gate setting
         { 0x0B, 0xD9, }, // noise gate -4dB
-        { 0x93, 0xAD, }, // pop noise enlarge CP freq
-        { 0x90, 0x93, }, // fix 1X mode
     },
 };
 
